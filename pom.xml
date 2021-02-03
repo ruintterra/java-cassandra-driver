@@ -19,7 +19,7 @@
   <groupId>io.opentracing.contrib</groupId>
   <artifactId>opentracing-cassandra-driver-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.1.10-SNAPSHOT</version>
+  <version>0.1.10-intterra</version>
 
   <modules>
     <module>opentracing-cassandra-driver-3</module>
@@ -174,14 +174,9 @@
 
   <distributionManagement>
     <repository>
-      <id>bintray</id>
-      <url>https://api.bintray.com/maven/opentracing/maven/opentracing-cassandra-driver/;publish=1
-      </url>
+      <id>intterra-releases</id>
+      <url>https://nexus.intterra.ru/repository/maven-releases/</url>
     </repository>
-    <snapshotRepository>
-      <id>jfrog-snapshots</id>
-      <url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <profiles>
